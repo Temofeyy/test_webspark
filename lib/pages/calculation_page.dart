@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import '../algorithm.dart';
 import '../api/api.dart';
 import '../ext.dart';
-import '../mixins/loadable.dart';
+import '../mixins/loadable_page.dart';
 import '../models/point.dart';
 import '../models/task.dart';
 import '../models/task_result.dart';
