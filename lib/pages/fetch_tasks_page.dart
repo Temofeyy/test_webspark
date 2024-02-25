@@ -55,6 +55,8 @@ class _FetchTasksPageState extends State<FetchTasksPage> with LoadablePage {
     } catch (e){
       if(mounted)
         ScaffoldMessage.show(context, e.toString());
+      setState(() => isLoading = false);
+      return;
     }
     setState(() => isLoading = false);
 
